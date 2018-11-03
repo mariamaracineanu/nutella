@@ -1,6 +1,10 @@
 a=0:0.1:2;
-b=ones(21,1);
-% b trebuie sa aiba lungimea egala cu 20 (numarul de coloane din a)
-a*b % inmultirea matricelor
+% b trebuie sa aiba lungimea egala cu 20 (numarul de coloane din a):
+b=ones(21,1);    
+
+% inmultirea matricelor:
+a*b     
 b*a
-a.*b' % inmultirea element cu element
+
+% inmultirea element cu element: se obtine o linie cu inmultirea elementelor 2 cate 2:
+a.*b' 
