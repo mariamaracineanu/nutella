@@ -1,0 +1,22 @@
+a=randn(1,10);
+b=randn(1,10);
+% vector (aleator) cu elemente complexe:
+c=a+b*j;
+% apelare functie:
+[medie vector matrice] = functie(c)
+
+
+% functia:
+
+function [ ma,v,m ] = functie( c )
+ma=0;
+for i=1:1:10
+    ma=ma+real(c(i));
+end
+% media aritmetică a părţilor reale ale elementelor vectorului:
+ma/10;
+% un vector ce conţine elementele vectorului iniţial ridicate la pătrat:
+v=c.*c;
+% o matrice obţinută din înmulţirea vectorului iniţial cu transpusul său:
+m=c'*c;
+end
