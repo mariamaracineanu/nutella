@@ -1,0 +1,29 @@
+% a)
+z = [0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+n=0:20;
+m=-5:15;
+subplot(2,1,1),stem(n,z)
+subplot(2,1,2),stem(m,z)
+
+% b)
+n=0:20;
+m=-5:15;
+t=abs(10-n);
+stem(n,t)
+
+% c)
+
+% figura 1 – în acelaşi sistem de coordonate (pe acelaşi grafic):
+n=-15:25;
+x1=sin(pi*n/17);
+m=0:50;
+x2=cos(pi*m/sqrt(23));
+plot(n,x1,m,x2);
+
+% figura 2 – folosind două “miniferestre” grafice plasate una sub alta:
+n=-15:25;
+x1=sin(pi*n/17);
+m=0:50;
+x2=cos(pi*m/sqrt(23));
+subplot(2,1,1),plot(n,x1),title('sin'),grid
+subplot(2,1,2),plot(m,x2),title('cos'),grid
