@@ -1,0 +1,8 @@
+T1_ex1
+
+a=0:0.1:2;
+b=ones(21,1);
+% b trebuie sa aiba lungimea egala cu 20 (numarul de coloane din a)
+a*b % inmultirea matricelor
+b*a
+a.*b' % inmultirea element cu element
