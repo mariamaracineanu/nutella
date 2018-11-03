@@ -1,0 +1,11 @@
+%generare vector aleator:
+a=randn(1,10);
+b=a;
+for i=1:1:10
+    %afisare elemente negative:
+    if b(i)<0
+        b(i)
+    end
+end
+
+    
