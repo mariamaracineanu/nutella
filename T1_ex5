@@ -1,0 +1,21 @@
+% a)
+
+%pas 0.01
+F = 50;
+t = 0:0.01:0.2;
+s = 2*sin(2*pi*F*t);
+plot(t,s,'.-'),xlabel('Timp [s]'),grid
+
+%pas 0.0002
+F = 50;
+t = 0:0.0002:0.2;
+s = 2*sin(2*pi*F*t);
+plot(t,s,'.-'),xlabel('Timp [s]'),grid
+
+% b) pentru pasii de 0.001 si 0.0002, perioada=0.02
+
+% c)
+F = 20;
+t = 0:0.001:0.2;
+s = 2*cos(2*pi*F*t);
+plot(t,s,'.-'),xlabel('Timp [s]'),grid
