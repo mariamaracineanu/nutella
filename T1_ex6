@@ -1,0 +1,14 @@
+Fs=12;
+T=0.5;
+N=Fs*T;
+n=round(rand(1,N))
+
+% a)
+
+subplot(2,1,1)
+plot(n);
+
+% b)
+
+subplot(2,1,2)
+stem(n);
